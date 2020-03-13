@@ -10,8 +10,6 @@ canvas {
     transform:translate(-50%, -50%);
 }
 #up {
-    width: 100px;
-    height: 100px;
     position:absolute;
     top:80%;
     left:65%;
@@ -19,8 +17,6 @@ canvas {
 
 }
 #down {
-    width: 100px;
-    height: 100px;
     position:absolute;
     top:90%;
     left:65%;
@@ -28,8 +24,6 @@ canvas {
 
 }
 #right {
-    width: 100px;
-    height: 100px;
     position:absolute;
     top:90%;
     left:80%;
@@ -37,8 +31,6 @@ canvas {
 
 }
 #left {
-    width: 100px;
-    height: 100px;
     position:absolute;
     top:90%;
     left:80%;
@@ -48,35 +40,39 @@ canvas {
 @media screen and (max-width: 600px) { 
 canvas {
     width: 95%;
-    top:30%;
+    top:27%;
 }
 #up {
-    top:65%;
-    width: 15%;
+    top:60%;
+    width: 20%;
     height: 15%;
     left:50%;
-    background-color: #33B5E5;
+    background-color: green;
+    border: 5px double yellowgreen;
 
 }
 #down {
-    top:90%;
-    width: 15%;
+    top:92%;
+    width: 20%;
     height: 15%;
     left:50%;
-    background-color: #33B5E5;
+    background-color: green;
+    border: 5px double yellowgreen;
 }
 #right {
-    top:80%;
-    width: 15%;
+    top:76%;
+    width: 20%;
     height: 15%;
-    left:70%;
-    background-color: #33B5E5;
+    left:72%;
+    background-color: green;
+    border: 5px double yellowgreen;
 }
 #left {
-    top:80%;
-    width: 15%;
+    top:76%;
+    width: 20%;
     height: 15%;
-    left:30%;
-    background-color: #33B5E5;
+    left:28%;
+    background-color: green;
+    border: 5px double yellowgreen;
 }
     }
