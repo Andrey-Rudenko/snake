@@ -44,35 +44,35 @@ canvas {
 }
 #up {
     top:60%;
-    width: 20%;
+    width: 21%;
     height: 15%;
     left:50%;
     background-color: green;
-    border: 5px double yellowgreen;
+    border: 5px solid yellowgreen;
 
 }
 #down {
     top:92%;
-    width: 20%;
+    width: 21%;
     height: 15%;
     left:50%;
     background-color: green;
-    border: 5px double yellowgreen;
+    border: 5px solid yellowgreen;
 }
 #right {
     top:76%;
-    width: 20%;
+    width: 21%;
     height: 15%;
     left:72%;
     background-color: green;
-    border: 5px double yellowgreen;
+    border: 5px solid yellowgreen;
 }
 #left {
     top:76%;
-    width: 20%;
+    width: 21%;
     height: 15%;
     left:28%;
     background-color: green;
-    border: 5px double yellowgreen;
+    border: 5px solid yellowgreen;
 }
     }
