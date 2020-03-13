@@ -45,7 +45,7 @@ function gameloop() {
         telep(snakeMassive)
         //Проверка на столкновение
         if (snakeMassive[snakeMassive.length-1].snakeX == b.x_blocks && snakeMassive[snakeMassive.length-1].snakeY == b.y_blocks) {
-            score +=5;  //очки
+            score +=1;  //очки
             //Увеличение змеки и спавн новой еды
             a = new snake; 
             a.snakeX = b.x_blocks;
