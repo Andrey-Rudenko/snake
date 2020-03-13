@@ -48,7 +48,7 @@ canvas {
     height: 15%;
     left:50%;
     background-color: green;
-    border: 5px solid yellowgreen;
+    border: 5px solid greenyellow;
 
 }
 #down {
@@ -57,7 +57,7 @@ canvas {
     height: 15%;
     left:50%;
     background-color: green;
-    border: 5px solid yellowgreen;
+    border: 5px solid greenyellow;
 }
 #right {
     top:75%;
@@ -65,7 +65,7 @@ canvas {
     height: 15%;
     left:75%;
     background-color: green;
-    border: 5px solid yellowgreen;
+    border: 5px solid greenyellow;
 }
 #left {
     top:75%;
@@ -73,6 +73,6 @@ canvas {
     height: 15%;
     left:25%;
     background-color: green;
-    border: 5px solid yellowgreen;
+    border: 5px solid greenyellow;
 }
     }
