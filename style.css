@@ -43,8 +43,8 @@ canvas {
     top:27%;
 }
 #up {
-    top:60%;
-    width: 21%;
+    top:58%;
+    width: 22%;
     height: 15%;
     left:50%;
     background-color: green;
@@ -53,25 +53,25 @@ canvas {
 }
 #down {
     top:92%;
-    width: 21%;
+    width: 22%;
     height: 15%;
     left:50%;
     background-color: green;
     border: 5px solid yellowgreen;
 }
 #right {
-    top:76%;
-    width: 21%;
+    top:75%;
+    width: 22%;
     height: 15%;
-    left:72%;
+    left:75%;
     background-color: green;
     border: 5px solid yellowgreen;
 }
 #left {
-    top:76%;
-    width: 21%;
+    top:75%;
+    width: 22%;
     height: 15%;
-    left:28%;
+    left:25%;
     background-color: green;
     border: 5px solid yellowgreen;
 }
