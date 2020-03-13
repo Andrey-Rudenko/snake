@@ -15,7 +15,7 @@ function gameloop() {
     }
     draw.fillStyle = "GreenYellow";
     draw.fillRect(0,300,600,6)
-    draw.font = "35px Impact";
+    draw.font = "35px fantasy";
     draw.fillText("SCORE", 20, 343);
     draw.fillText(score, 138, 343);
     draw.fillRect(190,305,5,50);
