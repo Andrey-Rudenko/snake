@@ -1,5 +1,6 @@
 
 //Спавн переменных 
+record = localStorage.getItem('recordKey');
 let dir = "right";
 let snakeMassive = [];
 let frame = 0;
@@ -10,7 +11,6 @@ let b = new blocks;
 let timeX = 9;
 fedyaX = 250;
 flagAlert = 0;
-record = localStorage.getItem('recordKey');
 //проверяем на спавн внутри змейки
 check(snakeMassive,b);
 //keycode

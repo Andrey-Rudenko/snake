@@ -4,11 +4,12 @@ function gameloop() {
     draw.fillStyle = "black";
     draw.fillRect(0,0,2000,1000);
     //Текст бегущей надписи
+    record = localStorage.getItem('recordKey');
     if (localStorage.getItem('recordKey') == null) {
         names = 'SnakeTheGame';
     }
     else {
-        names = `BEST SCORE = ${localStorage.getItem('recordKey')}`;
+        names = `BEST SCORE = ${record}`;
     }
     //scorebar
     draw.fillStyle = "GreenYellow";
