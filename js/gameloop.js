@@ -3,6 +3,7 @@ function gameloop() {
     draw.clearRect(0,0,2000,1000);
     draw.fillStyle = "black";
     draw.fillRect(0,0,2000,1000);
+    //Текст бегущей надписи
     if (localStorage.getItem('recordKey') == null) {
         names = 'SnakeTheGame';
     }
