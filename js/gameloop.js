@@ -20,8 +20,8 @@ function gameloop() {
     draw.fillStyle = "GreenYellow";
     draw.fillRect(0,300,600,6)
     draw.font = "35px impact";
-    draw.fillText("SCORE", 30, 343);
-    draw.fillText(score, 160, 343);
+    draw.fillText("SCORE", 28, 343);
+    draw.fillText(score, 162, 343);
     draw.fillText(':', 140, 339);
     draw.fillRect(200,305,5,50);
     //Движение надписи
