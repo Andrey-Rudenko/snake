@@ -10,11 +10,12 @@ let b = new blocks;
 let timeX = 9;
 fedyaX = 250;
 flagAlert = 0;
+record = localStorage.getItem('recordKey');
 if (localStorage.getItem('recordKey') == null) {
     names = 'SnakeTheGame';
 }
 else {
-    names = localStorage.getItem('recordKey');
+    names = `BEST SCORE = ${localStorage.getItem('recordKey')}`;
 }
 //проверяем на спавн внутри змейки
 check(snakeMassive,b);

@@ -17,8 +17,8 @@ function gameloop() {
     draw.fillRect(190,305,5,50);
     //Движение надписи
     fedyaX -=1;
-    if (fedyaX == -10 - names.length) {
-        fedyaX = 610;
+    if (fedyaX == -15) {
+        fedyaX = 615;
     }
     //Флаг смерти
     if (stop == false) {
