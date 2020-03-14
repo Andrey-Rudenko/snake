@@ -8,7 +8,7 @@ let flag = 0;
 let score = 0;
 let b = new blocks;
 let timeX = 9;
-let names = "* Ф  Е  Д  Я     Л  О  Х *";
+let names = 0;
 fedyaX = 250;
 flagAlert = 0;
 //проверяем на спавн внутри змейки

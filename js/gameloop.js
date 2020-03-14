@@ -63,13 +63,12 @@ function gameloop() {
     }
     }
     if (stop == true){
-        if (flagAlert == 0) {
-            alert(`Вы проиграли(\nВаш счет равен: ${score}`);
-            flagAlert = 1
-        }
-    if (flagAlert == 1) {
-        location.href = location.href
-    }
+        alert(`Вы проиграли(\nВаш счет равен: ${score}`);
+        snakeMassive = [];
+        snakeInd(snakeMassive);
+        stop = false;
+        dir = "right";
+        score = 0;
     }
     requestAnimationFrame(gameloop);
 }
