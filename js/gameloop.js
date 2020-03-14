@@ -63,6 +63,11 @@ function gameloop() {
     }
     }
     if (stop == true){
+        if (score > records) {
+            localStorage.records = records;
+            names = records;
+            console.log(localStorage.records)
+        }
         alert(`Вы проиграли(\nВаш счет равен: ${score}`);
         startData()
     }
