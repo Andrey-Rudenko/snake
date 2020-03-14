@@ -12,9 +12,8 @@ let names = 'SnakeTheGame';
 fedyaX = 250;
 flagAlert = 0;
 //проверяем на спавн внутри змейки
-check(snakeMassive,b)
+check(snakeMassive,b);
 //keycode
 document.addEventListener("keydown", direction);    
-
 //координаты первой змейки
 snakeInd(snakeMassive);
