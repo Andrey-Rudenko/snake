@@ -21,7 +21,8 @@ function gameloop() {
     draw.fillRect(0,300,600,6)
     draw.font = "35px impact";
     draw.fillText("SCORE", 20, 343);
-    draw.fillText(score, 140, 343);
+    draw.fillText(score, 142, 343);
+    draw.fillText(':', 115, 339);
     draw.fillRect(200,305,5,50);
     //Движение надписи
     fedyaX -=1;
