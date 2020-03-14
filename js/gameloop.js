@@ -3,6 +3,12 @@ function gameloop() {
     draw.clearRect(0,0,2000,1000);
     draw.fillStyle = "black";
     draw.fillRect(0,0,2000,1000);
+    if (localStorage.getItem('recordKey') == null) {
+        names = 'SnakeTheGame';
+    }
+    else {
+        names = `BEST SCORE = ${localStorage.getItem('recordKey')}`;
+    }
     //scorebar
     draw.fillStyle = "GreenYellow";
     draw.fillText(names, fedyaX, 343);
