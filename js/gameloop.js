@@ -64,11 +64,7 @@ function gameloop() {
     }
     if (stop == true){
         alert(`Вы проиграли(\nВаш счет равен: ${score}`);
-        snakeMassive = [];
-        snakeInd(snakeMassive);
-        stop = false;
-        dir = "right";
-        score = 0;
+        startData()
     }
     requestAnimationFrame(gameloop);
 }

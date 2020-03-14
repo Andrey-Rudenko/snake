@@ -107,3 +107,13 @@ function snakeInd(snakeMassive) {
     }
     return(b)
 }
+
+
+function startData() {
+    snakeMassive = [];
+    snakeInd(snakeMassive);
+    stop = false;
+    dir = "right";
+    score = 0;
+    return(snakeMassive, stop,dir,score)
+    }
