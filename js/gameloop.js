@@ -15,14 +15,14 @@ function gameloop() {
     draw.fillStyle = "GreenYellow";
     draw.fillText(names, fedyaX, 343);
     draw.fillStyle = "black";
-    draw.fillRect(0,305,190,45);
+    draw.fillRect(0,305,200,45);
 
     draw.fillStyle = "GreenYellow";
     draw.fillRect(0,300,600,6)
     draw.font = "35px impact";
     draw.fillText("SCORE", 20, 343);
     draw.fillText(score, 140, 343);
-    draw.fillRect(190,305,5,50);
+    draw.fillRect(200,305,5,50);
     //Движение надписи
     fedyaX -=1;
     if (fedyaX == -100) {
