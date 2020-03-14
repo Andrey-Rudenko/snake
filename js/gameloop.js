@@ -5,14 +5,11 @@ function gameloop() {
         draw.fillRect(0,0,2000,1000);
     //scorebar
     draw.fillStyle = "GreenYellow";
-    draw.fillText(names, fedyaX, 343);
+    draw.fillText(`BEST SCORE = ${localStorage.getItem('recordKey')}`, fedyaX, 343);
     draw.fillStyle = "black";
     draw.fillRect(0,305,190,45);
     // 
-    fedyaX-=1;
-    if (fedyaX == 0 - names.length * 5) {
-        fedyaX = 600 + names.length * 5;
-    }
+
     draw.fillStyle = "GreenYellow";
     draw.fillRect(0,300,600,6)
     draw.font = "35px impact";
@@ -63,13 +60,13 @@ function gameloop() {
     }
     }
     if (stop == true){
-        if (score > records) {
-            localStorage.records = records;
-            names = records;
-            console.log(localStorage.records)
+        if (score > record) {
+            localStorage.setItem('recordKey', score);
+            names = record;
+            console.log(localStorage.getItem('recordKey'));
         }
         alert(`Вы проиграли(\nВаш счет равен: ${score}`);
-        startData()
+        startData();
     }
     requestAnimationFrame(gameloop);
 }

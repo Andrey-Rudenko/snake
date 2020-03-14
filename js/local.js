@@ -1,6 +1,5 @@
-if(typeof localStorage.records !== "undefined") {
-    records = 0 
-}
-else {
-    records = localStorage.records;
+record = localStorage.getItem('recordKey');
+console.log(record);
+if (record == null) {
+    record = 0;
 }
