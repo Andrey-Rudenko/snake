@@ -5,7 +5,7 @@ function gameloop() {
     draw.fillRect(0,0,2000,1000);
     //scorebar
     draw.fillStyle = "GreenYellow";
-    draw.fillText(`BEST SCORE = ${localStorage.getItem('recordKey')}`, fedyaX, 343);
+    draw.fillText(names, fedyaX, 343);
     draw.fillStyle = "black";
     draw.fillRect(0,305,190,45);
 
@@ -15,6 +15,11 @@ function gameloop() {
     draw.fillText("SCORE", 20, 343);
     draw.fillText(score, 140, 343);
     draw.fillRect(190,305,5,50);
+    //Движение надписи
+    fedyaX -=1;
+    if (fedyaX == -10 - names.length) {
+        fedyaX = 610;
+    }
     //Флаг смерти
     if (stop == false) {
         //Спавним змейку

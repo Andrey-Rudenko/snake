@@ -1,5 +1,4 @@
 //Запоминание рекорда 
 record = localStorage.getItem('recordKey');
-if (record == null) {
-    names = 'SnakeTheGame';
-}
+localStorage.clear()
+console.log(names.length)

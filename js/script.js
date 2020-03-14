@@ -10,6 +10,12 @@ let b = new blocks;
 let timeX = 9;
 fedyaX = 250;
 flagAlert = 0;
+if (localStorage.getItem('recordKey') == null) {
+    names = 'SnakeTheGame';
+}
+else {
+    names = localStorage.getItem('recordKey');
+}
 //проверяем на спавн внутри змейки
 check(snakeMassive,b);
 //keycode
