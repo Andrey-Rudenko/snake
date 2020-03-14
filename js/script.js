@@ -8,7 +8,6 @@ let flag = 0;
 let score = 0;
 let b = new blocks;
 let timeX = 9;
-let names = 'SnakeTheGame';
 fedyaX = 250;
 flagAlert = 0;
 //проверяем на спавн внутри змейки
