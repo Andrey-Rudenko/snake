@@ -46,14 +46,14 @@ canvas {
 @media screen and (max-width: 600px) { 
     canvas {
         width: 95%;
-        top:27%;
+        top:29%;
     }
     #pause {
-        top: 1%;
-        left:92%;
+        top: 5%;
+        left:91%;
     }
     #up {
-        top:56%;
+        top:57%;
         width: 24%;
         height: 15%;
         left:50%;
@@ -61,7 +61,7 @@ canvas {
         border: 5px solid greenyellow;
     }
     #down {
-        top:90%;
+        top:91%;
         width: 24%;
         height: 15%;
         left:50%;
@@ -69,18 +69,18 @@ canvas {
         border: 5px solid greenyellow;
     }
     #right {
-        top:73%;
+        top:74%;
         width: 24%;
         height: 15%;
-        left:77%;
+        left:78%;
         background-color: green;
         border: 5px solid greenyellow;
     }
     #left {
-        top:73%;
+        top:74%;
         width: 24%;
         height: 15%;
-        left:23%;
+        left:22%;
         background-color: green;
         border: 5px solid greenyellow;
     }
