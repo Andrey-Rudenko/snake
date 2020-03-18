@@ -19,28 +19,45 @@ canvas {
     background-color: green;
 
 }
+
+#goshan {
+    position:absolute;
+    top:0%;
+    left:0%;
+    width: 0px;
+    height: 0px;
+    transform:translate(-50%, -50%);
+}
 #up {
     position:absolute;
-    top:80%;
-    left:65%;
+    top:0%;
+    left:0%;
+    width: 0px;
+    height: 0px;
     transform:translate(-50%, -50%);
 }
 #down {
     position:absolute;
-    top:90%;
-    left:65%;
+    top:0%;
+    left:0%;
+    width: 0px;
+    height: 0px;
     transform:translate(-50%, -50%);
 }
 #right {
     position:absolute;
-    top:90%;
-    left:80%;
+    top:0%;
+    left:0%;
+    width: 0px;
+    height: 0px;
     transform:translate(-50%, -50%);
 }
 #left {
     position:absolute;
-    top:90%;
-    left:80%;
+    top:0%;
+    left:0%;
+    width: 0px;
+    height: 0px;
     transform:translate(-50%, -50%);
 }
 @media screen and (max-width: 600px) { 
@@ -51,6 +68,12 @@ canvas {
     #pause {
         top: 5%;
         left:91%;
+    }
+    #goshan {
+        width: 24%;
+        height: 15%;
+        left:50%;
+        top:73.5%;
     }
     #up {
         top:57%;
