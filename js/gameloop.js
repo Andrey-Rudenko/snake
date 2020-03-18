@@ -79,7 +79,7 @@ function gameloop() {
             names = record;
             console.log(localStorage.getItem('recordKey'));
             alert("Поздравляем, вы побили свой рекорд!!!");
-        }       
+        }    
         startData();
     }
     requestAnimationFrame(gameloop);
