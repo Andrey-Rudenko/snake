@@ -18,4 +18,3 @@ check(snakeMassive,b);
 document.addEventListener("keydown", direction);    
 //координаты первой змейки
 snakeInd(snakeMassive);
-

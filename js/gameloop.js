@@ -3,6 +3,13 @@ function gameloop() {
     draw.clearRect(0,0,2000,1000);
     draw.fillStyle = "black";
     draw.fillRect(0,0,2000,1000);
+    //Изменение кнопки паузы
+    if (pause == true) {
+        document.getElementById("pause").src = "img/play.png";
+    }
+    else {
+        document.getElementById("pause").src = "img/pause.png";
+    }
     //Текст бегущей надписи
     record = localStorage.getItem('recordKey');
     if (localStorage.getItem('recordKey') == null) {
