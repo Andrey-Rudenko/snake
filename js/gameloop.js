@@ -21,7 +21,7 @@ function gameloop() {
     draw.fillRect(0,300,600,6)
     draw.font = "35px impact";
     draw.fillText("SCORE", 28, 343);
-    draw.fillText(score, 158, 343);
+    draw.fillText(score, 156, 343);
     draw.fillText(':', 140, 339);
     draw.fillRect(200,305,5,50);
     //Движение надписи
@@ -42,7 +42,7 @@ function gameloop() {
         else {
             frame = 0;
         }
-        if (frame == timeX) {
+        if (frame == timeX && pause == false) {
             //Прописываем повороты и движение змейки
             go(dir, snakeMassive);
         }

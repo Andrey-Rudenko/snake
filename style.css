@@ -9,6 +9,16 @@ canvas {
     left:50%;
     transform:translate(-50%, -50%);
 }
+#pause {
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    top:7%;
+    left:70.5%;
+    transform:translate(-50%, -50%);
+    background-color: green;
+    border: 5px solid greenyellow; 
+}
 #up {
     position:absolute;
     top:80%;
@@ -37,6 +47,10 @@ canvas {
     canvas {
         width: 95%;
         top:27%;
+    }
+    #pause {
+        top: 0%;
+        left:93.5%;
     }
     #up {
         top:56%;

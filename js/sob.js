@@ -30,3 +30,13 @@ blockLeft.onclick = function(){
         flag = 1;
     }
 }
+//Кнопка паузы
+let blockPause = document.getElementById('pause');
+blockPause.onclick = function(){
+    if (pause == false) {
+        pause = true;
+    }
+    else {
+        pause = false;
+    }
+}
